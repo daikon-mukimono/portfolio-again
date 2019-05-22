@@ -35,14 +35,16 @@ header{
 
 .image-box{
   	background-color: #444;
-  	padding: 8vh;
+  	height: 27vw;
+  	width: 27vw;
+  	padding: 1vh;
   	margin: 2vh;
 }
 
+
 .image-in-box{
-	max-width: 27vw;
-	max-height: auto;
-	padding: 1vh;
+	width: 100%;
+	height: auto;
 	/*size: auto;*/
 }
 
