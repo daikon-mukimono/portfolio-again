@@ -1,0 +1,56 @@
+body{
+	background-color: lightgray;
+	margin: auto 0;
+}
+
+header{
+	display: flex;
+}
+
+.cactus{
+	height: 15vh;
+	margin-left: 5vw;
+}
+
+.header-right{
+	padding-left: 67vw;
+}
+
+.catan-pic{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+}
+
+.image-box-box{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	margin-top: 10px;
+
+}
+
+.image-box{
+  	background-color: #444;
+  	padding: 8vh;
+  	margin: 2vh;
+}
+
+.image-in-box{
+	max-width: 27vw;
+	max-height: auto;
+	padding: 1vh;
+	/*size: auto;*/
+}
+
+.image-box > img {
+ 	width: 100%;
+ 	z-index:3;
+}
+
+.image-box:hover{
+	transform: scale(1.03)
+}
